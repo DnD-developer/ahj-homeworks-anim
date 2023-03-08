@@ -8,6 +8,12 @@ html(lang="en")
     body
         .wrapper
             .content
-                h1 Make in D&D.projects
-                img(src=require("../assets/img/preview.jpeg"), alt="")
+                .animate-wrapper
+                    button.btn-trigger Collapse
+                    p.animate-text
+                        |Вы можете сделать все три задачи в одном репозитории и показать работу всех трёх виджетов на одной странице. Ключевое, чтобы все виджеты были оформлены в виде отдельных классов.
+                        |Всё должно собираться через Webpack (включая картинки и стили) и выкладываться на Github Pages через Appveyor
+                        |В README.md должен быть размещён бейджик сборки и ссылка на Github Pages
+                        |В качестве результата присылайте проверяющему ссылки на ваши GitHub-проекты
+                        |Авто-тесты писать не требуется
         .footer
